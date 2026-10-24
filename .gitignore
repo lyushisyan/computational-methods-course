@@ -1,0 +1,7 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+/01-python/plot.png
+/01-python/data.txt
+/01-python/A.npy
