@@ -9,12 +9,3 @@
 06-monte-carlo-transport — моделирование переноса / 蒙特卡洛输运
 07-machine-learning — основы машинного обучения / 机器学习基础
 08-modern-computational-physics — суррогаты, PINN и NEP / 代理模型、PINN 与 NEP
-
-Открывайте Notebook из его папки и выполняйте ячейки сверху вниз.
-每个 Notebook 从所在文件夹打开，从上到下运行。
-
-Для занятия 2 см. README.md в соответствующей папке.
-Для занятия 8 версии библиотек указаны в requirements.txt. Сохраните вложенную папку data.
-第二讲见该文件夹的 README.md。第八讲的库版本见 requirements.txt，并保留 data 文件夹。
-
-https://github.com/lyushisyan/computational-methods-course
