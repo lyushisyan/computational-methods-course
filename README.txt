@@ -1,6 +1,6 @@
 Материалы курса / 课程代码
 
-00-setup — установка Python и Jupyter / Python 与 Jupyter 安装说明
+00-setup — установка Python, Jupyter и WSL / Python、Jupyter 与 WSL 安装说明
 01-python — Python, NumPy, Matplotlib / Python 基础、数组与绘图
 02-linux-nepkappa — Linux и запуск NEP-kappa / Linux 与 NEP-kappa 运行
 03-numerical-methods — численные методы / 数值方法
