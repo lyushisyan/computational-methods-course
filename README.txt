@@ -10,3 +10,64 @@ lecture_3_machine_learning.ipynb — Машинное обучение
 Персептрон, логические функции AND и XOR, прямой проход и обратное распространение ошибки. Обучение и проверка линейной модели. Нейросетевой прогноз теплопроводности по синтетическим данным и решение уравнения теплопроводности методом PINN.
 
 Комментарии в коде — на русском и китайском.
+
+Как скачать и запустить
+
+1. Скачать код
+Откройте репозиторий:
+https://github.com/lyushisyan/computational-methods-course
+Нажмите Code → Download ZIP и распакуйте архив. Получится папка computational-methods-course-main с тремя файлами .ipynb. Перед запуском архив нужно распаковать.
+Прямая ссылка на ZIP:
+https://github.com/lyushisyan/computational-methods-course/archive/refs/heads/main.zip
+
+2. Установить Python
+Установите Miniconda — небольшой дистрибутив Python с менеджером окружений conda:
+https://www.anaconda.com/docs/getting-started/miniconda/install
+Выберите установщик для своей системы и архитектуры процессора.
+В Windows установите для текущего пользователя (Just Me), затем откройте Anaconda Prompt через меню «Пуск». В macOS и Linux используйте терминал после установки и настройки conda по официальной инструкции.
+
+Все команды ниже выполняются в Anaconda Prompt или терминале, по одной строке. Создайте отдельное окружение с Python 3.12:
+
+    conda create -n numcalc python=3.12
+    conda activate numcalc
+    python --version
+
+Если conda запрашивает подтверждение установки пакетов, введите y и нажмите Enter. Команда python --version должна показать Python 3.12.x.
+
+3. Установить Jupyter и библиотеки
+В активном окружении numcalc выполните:
+
+    python -m pip install notebook numpy matplotlib
+
+Для третьего Notebook дополнительно установите PyTorch:
+
+    python -m pip install torch
+
+4. Открыть Notebook
+В том же терминале перейдите в распакованную папку. Пример для Windows, если архив распакован в «Загрузки»:
+
+    cd /d "%USERPROFILE%\Downloads\computational-methods-course-main"
+
+Для macOS и Linux:
+
+    cd ~/Downloads/computational-methods-course-main
+
+Если папка находится в другом месте, укажите её фактический путь. Затем запустите:
+
+    jupyter notebook
+
+Откроется браузер со списком файлов. Если браузер не открылся автоматически, скопируйте в него локальный адрес с token, показанный в терминале.
+Нажмите на нужный файл:
+
+    lecture_1_python.ipynb
+    lecture_2_monte_carlo.ipynb
+    lecture_3_machine_learning.ipynb
+
+Выберите ядро Python 3, если появится запрос. Выполняйте ячейки сверху вниз: Shift+Enter запускает текущую ячейку и переходит к следующей. Результаты и графики появятся под кодом. Обучение нейросетей в третьем Notebook занимает больше времени.
+Команды установки из текстовых ячеек первого Notebook выполняйте в терминале, а не в ячейках Python. Если окружение уже настроено, повторять установку не требуется.
+Сохраняйте изменения через Ctrl+S (в macOS — Cmd+S). Терминал с Jupyter оставляйте открытым во время работы; для завершения нажмите в нём Ctrl+C и подтвердите остановку, если появится запрос.
+
+При следующем запуске достаточно открыть терминал, выполнить conda activate numcalc, перейти в папку с файлами и запустить jupyter notebook.
+
+Официальная инструкция Jupyter:
+https://jupyter.org/install
