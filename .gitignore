@@ -3,8 +3,3 @@
 __pycache__/
 *.py[cod]
 /curves.png
-
-# Ранее опубликованные примеры
-/01-python/plot.png
-/01-python/data.txt
-/01-python/A.npy
